@@ -141,7 +141,7 @@
       <li>10-band equalizer</li>
       <li>Music sync through USB, via <a href="https://support.apple.com/en-us/HT201301" target="_blank">iTunes File Sharing</a></li>
       <li>Music sync <em>without iTunes</em> via FTP, WebDAV, or a simple Web browser!</li>
-      <li>Hardware codec utilization for longer battery life.</li>
+      <li><span style="background: black; color: white;">Dark mode</span></li>
     </ul>
     <h1 id="howto">How to ... ?</h1>
     <h2>How to get music into the app?</h2>
@@ -149,7 +149,7 @@
     <ul>
       <li>You can use iTunes File Sharing through WiFi or USB (which will probably be the fastest, so I'd recommend using that for transferring huge amounts of files)</li>
       <li>If you don't/can't use iTunes, but have a Mac, you can just use AirDrop from Finder.</li>
-      <li>If you don't have a Mac, you can use an FTP or WebDAV client, or even a Web browser like Google Chrome.</li>
+      <li>If you don't have a Mac, you can use an FTP or WebDAV client, or even a Web browser like Safari or Google Chrome.</li>
       <li>You can of course import files from other applications on your phone, like Safari.</li>
     </ul>
     <h2>How does iTunes File Sharing work?</h2>
@@ -159,11 +159,11 @@
     <p>First you should open the in-app file manager ("Files"), and from there open the "Transfer" page. </p>
     <p>Now, you should choose whether you want to use an FTP client (e.g. <a href="https://filezilla-project.org" target="_blank">FileZilla</a> on macOS or <a href="https://www.ghisler.com/" target="_blank">Total Commander</a> on Windows), 
       or a WebDAV client  (e.g. <a href="https://cyberduck.io" target="_blank">Cyberduck</a> both for macOS and Windows) for transferring files. 
-      If you choose WebDAV, you can use a simple Web browser too, like <a href="https://www.google.com/chrome/" target="_blank">Google Chrome.</a></p>
+      If you choose WebDAV, you can use a simple Web browser too, like Safari or <a href="https://www.google.com/chrome/" target="_blank">Google Chrome.</a></p>
     <p>Make sure you're connected to the same WiFi network as your computer, and press <em>"Start server"</em>. This fires up a local FTP/WebDAV server on your phone, which you can access from your computer.</p>
     <p>Once the server is running, you should take the displayed URL, and enter it into your FTP/WebDAV client or Web browser:</p>
     <p><img src="Assets/Transfer.png" style="width: 100%" /></p>
-    <p><em>I recommend using Google Chrome, because that's the only Web browser that supports drag'n'drop for folders. Other browsers like Safari won't be able to import all the files in a directory tree.</em></p>
+    <p><em>I recommend using Safari 11 (or newer), Firefox or Google Chrome, as other browsers might not support recursively uploading folders.</em></p>
     <p>Neither the WebDAV, nor the FTP server is password-protected. The FTP user is <em>anonymous</em>.</p>
     <p>If you're not using macOS, you might not be able to use the user-friendly <em>http://my-iphone.local</em> URL, unless you have Bonjour or some other Multicast DNS client avilable (iTunes for Windows comes with a Multicast DNS client). In this case you should use the plain IP URL, displayed below the user-friendly one, e.g. <em>http://192.168.0.220:58080</em></p>
     <h2>How to add <a href="itunes-artwork-finder">artwork</a> to an album?</h2>
